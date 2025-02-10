@@ -81,7 +81,6 @@ public class Lamdab {
 		/**
 		 * Comparator.reverseOrder() se utiliza para obtener el comparador que impone el orden inverso del comparador especificado.
 		 * */
-///		KKKKKKKK
-	}
+ 	}
 
 }
