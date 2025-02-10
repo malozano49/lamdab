@@ -14,7 +14,7 @@ public class Lamdab {
 		
 		List<String> vowelsList = Arrays.asList(vowels);
 		System.out.println(vowelsList);
-		
+		////////////////////BBBBBBBBBBBBBBBBBBBBBBBBBB
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
 			System.out.println(obj);
