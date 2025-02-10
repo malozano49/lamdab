@@ -13,7 +13,7 @@ public class Lamdab {
 		String[] vowels = {"a","e","i","o","u"};
 		
 		List<String> vowelsList = Arrays.asList(vowels);
-		System.out.println(vowelsList);
+//		System.out.println(vowelsList);
 
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
