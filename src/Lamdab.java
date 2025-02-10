@@ -14,7 +14,7 @@ public class Lamdab {
 		
 		List<String> vowelsList = Arrays.asList(vowels);
 		System.out.println(vowelsList);
-		////////////////////BBBBBBBBBBBBBBBBBBBBBBBBBB
+
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
 			System.out.println(obj);
@@ -81,6 +81,7 @@ public class Lamdab {
 		/**
 		 * Comparator.reverseOrder() se utiliza para obtener el comparador que impone el orden inverso del comparador especificado.
 		 * */
+///		KKKKKKKK
 	}
 
 }
