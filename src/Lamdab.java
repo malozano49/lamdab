@@ -4,17 +4,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Lamdab {
-//https://www.arquitecturajava.com/java-stream-filter-y-predicates/
+//MAiN /
 	
 	
 	
-	
+	//escrito en git
 	public static void main(String[] args) {
 		String[] vowels = {"a","e","i","o","u"};
-		//Martesa
 		List<String> vowelsList = Arrays.asList(vowels);
-//		System.out.println(vowelsList);
-/////////////////////10-0-2025
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
 			System.out.println(obj);
@@ -24,13 +21,13 @@ public class Lamdab {
 		/**.filter(Obj -> condicion): filtro*/
 		List<Integer> lista = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 		/**
-		x: es el nombre del objeto de la expresi髇 lamdab filter() 
-		.filter(condici髇 [x==5 o objeto]): filtrar los elementos de la lista con una condicioen
+		x: es el nombre del objeto de la expresi贸n lamdab filter() 
+		.filter(condici贸n [x==5 o objeto]): filtrar los elementos de la lista con una condicioen
 			ejemplos:
 			 	.filter(x -> x==5)
 			 	.filter(c -> c.getPoints() > 100)
 		.forEach(): recorrer la lista como un for
-			n: es el nombre del objeto dentro de la expresi髇 lamdab .forEach() 
+			n: es el nombre del objeto dentro de la expresi贸n lamdab .forEach() 
 			.forEach((n) -> System.out.println("prueba: "+ n)
 		*/
 		/*
@@ -45,8 +42,8 @@ public class Lamdab {
 		
 		/**
 		 * 
-		 * El uso de Java Stream map es una de las operaciones m醩 comunes cuando trabajamos con un flujo de Streams .
-		 * El m閠odo map nos permite realizar una transformaci髇 r醦ida de los datos y muy directa sobre el flujo original
+		 * El uso de Java Stream map es una de las operaciones m谩s comunes cuando trabajamos con un flujo de Streams .
+		 * El m茅todo map nos permite realizar una transformaci贸n r谩pida de los datos y muy directa sobre el flujo original
 		 * 
 		 * 
 		 * 
@@ -61,9 +58,9 @@ public class Lamdab {
 		        .map(Integer::valueOf)
 		        .collect(Collectors.toList());
 		/**
-		 *  collect () se usa principalmente para recopilar los elementos de flujo en una colecci髇.List<Integer> listOfIntegers
+		 *  collect () se usa principalmente para recopilar los elementos de flujo en una colecci贸n.List<Integer> listOfIntegers
 		 * .collect(Collectors.toList()
-		 * colecci髇= List<Integer> listOfIntegers
+		 * colecci贸n= List<Integer> listOfIntegers
 		 * */ 
 		//System.out.println(listOfIntegers);
 		/**
@@ -75,7 +72,7 @@ public class Lamdab {
 		/ lista.stream().sorted(Comparator.comparing(ObjetoPersona::Getter del un atributo)).forEach(System.out::println);
 		 *		ejemplo: lista.stream().sorted(Comparator.comparing(Persona::getApellidos)).forEach(System.out::println);
 		 * 		ejemplo de ODA: .sorted(Comparator.comparing(OpacJobInstance::getId).reversed())
-		 * .reversed(): metodo que invierte el orden de clasificaci髇 del original.
+		 * .reversed(): metodo que invierte el orden de clasificaci贸n del original.
 		 */
 		
 		/**
