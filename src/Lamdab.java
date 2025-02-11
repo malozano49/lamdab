@@ -4,17 +4,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Lamdab {
-//https://www.arquitecturajava.com/java-stream-filter-y-predicates/
 	
 	
 	
 	
 	public static void main(String[] args) {
 		String[] vowels = {"a","e","i","o","u"};
-		//Martesa
 		List<String> vowelsList = Arrays.asList(vowels);
-//		System.out.println(vowelsList);
-/////////////////////10-0-2025
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
 			System.out.println(obj);
