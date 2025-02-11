@@ -14,7 +14,7 @@ public class Lamdab {
 		//Martesa
 		List<String> vowelsList = Arrays.asList(vowels);
 //		System.out.println(vowelsList);
-
+/////////////////////10-0-2025
 		/** forEach es un for*/
 		vowelsList.forEach(obj -> {
 			System.out.println(obj);
