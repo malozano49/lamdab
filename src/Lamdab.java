@@ -11,7 +11,7 @@ public class Lamdab {
 	
 	public static void main(String[] args) {
 		String[] vowels = {"a","e","i","o","u"};
-		
+		//Martesa
 		List<String> vowelsList = Arrays.asList(vowels);
 //		System.out.println(vowelsList);
 
