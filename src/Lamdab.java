@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Lamdab {
-
-	//rama 12-02-2025 nnnnnnnnnnnnnnnnn
+//Main 
 	public static void main(String[] args) {
 		String[] vowels = {"a","e","i","o","u"};
 		List<String> vowelsList = Arrays.asList(vowels);
